@@ -1,12 +1,4 @@
 
-/*
-Project Name : MALVIN XMD
-Creator      : Malvin King ( Mr Lord Malvin )
-Repo         : https//github.com/kingmalvn/MALVIN-XMD
-Support      : wa.me/263714757857
-*/
-
-
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
@@ -14,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XMD~4kokHR4J#yrVc9e9hwjH7eU0StCaCxbI7eEv93RxUxtyM4igUHQA",
 // add your Session Id 
 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
@@ -23,13 +15,13 @@ AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 //  📌 𝘁𝗿𝘂𝗲 𝗼𝗿 𝗳𝗮𝗹𝘀𝗲 𝗮𝘀 𝗬𝗼𝘂 𝗟𝗶𝗸𝗲 📌 if you want auto reply on status 
 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS__MSG || "*Just now your status viewed by ᴍᴀʟᴠɪɴ xᴍᴅ*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS__MSG || "*Just now your status viewed by Hashan md*",
 // set the auto reply massage on status reply  
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 
-BOT_NAME: process.env.BOT_NAME || "ᴍᴀʟᴠɪɴ xᴍᴅ",
+BOT_NAME: process.env.BOT_NAME || "Hashan md",
 // add bot namw here for menu
 
 STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ xᴍᴅ",
@@ -44,14 +36,11 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94713457207",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "Mʀ Mᴀʟᴠɪɴ",
+OWNER_NAME: process.env.OWNER_NAME || "Mʀ Hashan",
 // add bot owner name
-
-DESCRIPTION: process.env.DESCRIPTION || "*© sᴛᴀʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ғᴏʀ ғᴀɴᴛᴀsᴛɪᴄ ᴜᴘᴅᴀᴛᴇs!*",
-// add bot owner name 
 
 MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/7pg2gp.jpg",
 //Don't change menu image ⚠️
