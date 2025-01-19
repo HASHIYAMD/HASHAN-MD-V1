@@ -8,9 +8,9 @@
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "MALVIN-XMD~4kokHR4J#yrVc9e9hwjH7eU0StCaCxbI7eEv93RxUxtyM4igUHQA",
       "required": true,
-      "value": ""
+      "value": "MALVIN-XMD~4kokHR4J#yrVc9e9hwjH7eU0StCaCxbI7eEv93RxUxtyM4igUHQA"
     },  
     
     "STICKER_NAME": {
@@ -104,7 +104,7 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "263714757857"
+      "value": "94713457207"
 
     }, 
 
